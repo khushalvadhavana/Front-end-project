@@ -1,0 +1,124 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar {
+  background-color: white;
+  height: 50px;
+}
+.navbar ul {
+  position: fixed;
+  list-style: none;
+  padding-top: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: aqua;
+  padding: 10px;
+}
+
+.navbar li {
+  margin-left: 44rem;
+  font-size: 20px;
+}
+.navbar li :hover {
+  color: red;
+  background-color: aqua;
+}
+.logo img {
+  height: 40px;
+  width: auto;
+  padding-top: 4px;
+  padding-left: 20px;
+}
+.logo {
+  position: fixed;
+  height: 1px;
+}
+.search {
+  float: right;
+  padding-right: 14rem;
+  padding-top: 10px;
+}
+.search input {
+  position: fixed;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.container img {
+  /* float: right; */
+  width: 100%;
+  height: 75%;
+  position: fixed;
+  margin: 0px;
+}
+
+.pere {
+  font-size: 1.2rem;
+  position: fixed;
+  top: 16.6rem;
+  margin-left: 36rem;
+  color: #fffcfc;
+  size: 5px;
+}
+.heding1 {
+  position: fixed;
+  top: 17.5rem;
+  right: 25rem;
+  color: rgb(28, 251, 255);
+  text-decoration: solid;
+  font-size: 4rem;
+  padding-right: 120px;
+}
+.heding2 {
+  font-size: 3rem;
+  position: fixed;
+  top: 21rem;
+  right: 500px;
+  color: white;
+}
+footer {
+  width: 100%;
+  background: grey;
+  height: 160px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+footer ul {
+  float: right;
+  list-style: none;
+  padding-right: 52px;
+}
+footer li {
+
+  padding: 4px;
+}
+.row{
+  display:flex;
+  
+ 
+}
+.fc{
+  width: 20%;
+  /* padding-left: 58px; */
+  /* padding: 10px 20px; */
+
+}
+.fc h2{
+color: #fffcfc;
+padding-left: 110px;
+}
+
+.socialM {
+  padding-left: 145px;
+}
+
+.fab {
+  /* padding-left: 58px; */
+  margin-top: 10px;
+
+}
